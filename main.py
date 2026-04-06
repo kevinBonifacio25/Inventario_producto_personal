@@ -22,19 +22,19 @@ def menu ():
 
         match opciones:
             case "1" :
-                prueba.registrar_clientes(lista_producto)
+                prueba.registrar_producto(lista_producto)
 
             case "2":
-                prueba.listar_clientes(lista_producto)
+                prueba.listar_producto(lista_producto)
 
             case "3":
-                prueba.buscar_clientes_por_id(lista_producto)
+                prueba.buscar_producto_por_id(lista_producto)
 
             case "4":
-                prueba.actualizar_info_clientes(lista_producto)    
+                prueba.actualizar_info_producto(lista_producto)    
 
             case "5":    
-                prueba.eliminar_cliente(lista_producto)
+                prueba.eliminar_producto(lista_producto)
 
             case "6":
                 crud.guardar_datos(lista_producto)
