@@ -1,2 +1,2 @@
-# Inventario_cliente_personal
+# Inventario_producto_personal
 practica de modulacio y crud
